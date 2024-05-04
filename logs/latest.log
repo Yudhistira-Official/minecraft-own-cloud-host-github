@@ -1,57 +1,243 @@
-[04May2024 15:35:09.082] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[04May2024 15:35:09.084] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.2+13-LTS
-[04May2024 15:35:09.085] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.5.0-1018-azure
-[04May2024 15:35:09.174] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[04May2024 15:35:09.325] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
-[04May2024 15:35:09.593] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04May2024 15:35:11.169] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[04May2024 15:35:11.624] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties]
-[04May2024 15:35:11.797] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties]
-[04May2024 15:35:20.536] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.49, for MC 1.20.4 with MCP 20231207.112700
-[04May2024 15:35:20.544] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.49 Initialized
-[04May2024 15:35:20.597] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[04May2024 15:35:21.654] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04May2024 15:35:22.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 49.0.49 Target: 49.0.49
-[04May2024 15:35:24.143] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04May2024 15:35:27.880] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04May2024 15:35:28.227] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[04May2024 15:35:28.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
-[04May2024 15:35:28.924] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04May2024 15:35:28.924] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04May2024 15:35:28.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04May2024 15:35:29.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04May2024 15:35:29.130] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04May2024 15:35:29.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04May2024 15:35:29.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04May2024 15:35:29.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04May2024 15:35:29.195] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04May2024 15:35:29.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04May2024 15:35:36.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04May2024 15:35:42.330] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.331] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.332] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.333] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.334] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.335] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.336] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.338] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.339] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.341] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.343] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.344] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:42.690] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:43.190] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04May2024 15:35:43.994] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7304 ms
-[04May2024 15:35:43.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.788s)! For help, type "help"
-[04May2024 15:35:44.031] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04May2024 15:36:05.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[04May2024 15:36:05.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04May2024 15:36:05.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04May2024 15:36:05.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04May2024 15:36:06.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04May2024 15:36:25.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04May2024 15:36:25.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04May2024 15:36:25.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04May2024 15:36:25.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04May2024 15:36:25.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04May2024 15:36:25.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04May2024 16:04:17.900] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 附耳 (Whisper) / arclight-1.20.4-1.0.3-13f0d63
+    Build Date 2024-03-12 14:35:42
+
+[04May2024 16:04:17.947] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclight_server, nogui]
+[04May2024 16:04:17.949] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.2+13-LTS
+[04May2024 16:04:17.951] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.5.0-1018-azure
+[04May2024 16:04:18.144] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclight_server
+[04May2024 16:04:18.297] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[04May2024 16:04:18.597] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04May2024 16:04:20.105] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04May2024 16:04:20.161] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[04May2024 16:04:20.203] [main/INFO] [Arclight/]: Arclight core mixin added.
+[04May2024 16:04:20.205] [main/INFO] [Arclight/]: Arclight optimization mixin added.
+[04May2024 16:04:20.212] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclight_server' with arguments [nogui]
+[04May2024 16:04:25.794] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties]
+[04May2024 16:04:25.920] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/workspaces/minecraft-own-cloud-host-github/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties]
+[04May2024 16:04:36.816] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod loaded.
+[04May2024 16:04:36.817] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.31, for MC 1.20.4 with MCP 20231207.112700
+[04May2024 16:04:36.817] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.31 Initialized
+[04May2024 16:04:36.879] [modloading-worker-0/INFO] [Arclight/]: Arclight events registered.
+[04May2024 16:04:36.882] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[04May2024 16:04:37.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[04May2024 16:04:39.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.1.1 Target: 3.1.1+mod
+[04May2024 16:04:39.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04May2024 16:04:40.487] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04May2024 16:04:41.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 49.0.31 Target: 49.0.49
+[04May2024 16:04:44.232] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[04May2024 16:04:44.511] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1291 advancements
+[04May2024 16:04:45.812] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
+[04May2024 16:04:45.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04May2024 16:04:45.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04May2024 16:04:45.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04May2024 16:04:46.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04May2024 16:04:46.126] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04May2024 16:04:46.245] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04May2024 16:04:46.245] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04May2024 16:04:46.245] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04May2024 16:04:46.245] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04May2024 16:04:46.769] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.4-1.0.3-13f0d63 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[04May2024 16:04:47.872] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+[04May2024 16:04:47.946] [Server thread/INFO] [Arclight/]: Registered 0 new materials with 0 blocks and 0 items
+[04May2024 16:04:47.954] [Server thread/INFO] [Arclight/]: Registered 0 new entity types
+[04May2024 16:04:47.955] [Server thread/INFO] [Arclight/]: Registered 0 new villager professions
+[04May2024 16:04:47.981] [Server thread/INFO] [Arclight/]: Registered 99 new biomes
+[04May2024 16:04:48.028] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[04May2024 16:04:48.033] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[04May2024 16:04:48.035] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[04May2024 16:04:48.175] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/via.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoaderMixin.java:170) ~[arclight-1.20.4-1.0.3-13f0d63.jar!/:arclight-1.20.4-1.0.3-13f0d63] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[arclight-1.20.4-1.0.3-13f0d63.jar!/:arclight-1.20.4-1.0.3-13f0d63] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServerMixin.java:430) ~[arclight-1.20.4-1.0.3-13f0d63.jar!/:arclight-1.20.4-1.0.3-13f0d63] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.forge.json:bukkit.CraftServerMixin_Forge,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zdp000$arclight$loadPlugins(DedicatedServerMixin_Forge.java:643) ~[forge-1.20.4-49.0.31-server.jar!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:mixins.arclight.forge.json:core.server.dedicated.DedicatedServerMixin_Forge,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin_Forge.java:158) ~[forge-1.20.4-49.0.31-server.jar!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:mixins.arclight.forge.json:core.server.dedicated.DedicatedServerMixin_Forge,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin_Forge.java:2109) ~[forge-1.20.4-49.0.31-server.jar!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.forge.json:core.server.MinecraftServerMixin_Forge,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin_Forge.java:256) ~[forge-1.20.4-49.0.31-server.jar!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.forge.json:core.server.MinecraftServerMixin_Forge,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?] {re:mixin}
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 8 more
+[04May2024 16:04:48.212] [Server thread/INFO] [Arclight/]: Loading mappings ...
+[04May2024 16:04:48.923] [Server thread/INFO] [Arclight/]: Loading plugin patchers ...
+[04May2024 16:04:49.217] [Server thread/INFO] [ViaVersion/]: Loading ViaVersion v4.8.1
+[04May2024 16:04:49.285] [Server thread/INFO] [ViaVersion/]: ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
+[04May2024 16:04:49.906] [Via-Mappingloader-0/INFO] [ViaVersion/]: Loading block connection mappings ...
+[04May2024 16:04:50.302] [Server thread/INFO] [ViaBackwards/]: Loading translations...
+[04May2024 16:04:50.313] [Via-Mappingloader-0/INFO] [ViaVersion/]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[04May2024 16:04:50.325] [Server thread/INFO] [ViaBackwards/]: Registering protocols...
+[04May2024 16:04:50.990] [Server thread/INFO] [playit-gg/]: Loading playit-gg v0.1.4
+[04May2024 16:04:50.990] [Server thread/INFO] [ViaBackwards/]: Loading ViaBackwards v4.8.1
+[04May2024 16:04:51.092] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04May2024 16:04:51.164] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+[04May2024 16:04:51.755] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[04May2024 16:04:51.756] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[04May2024 16:04:51.756] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[04May2024 16:04:51.756] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[04May2024 16:04:51.756] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04May2024 16:04:51.756] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[04May2024 16:04:51.759] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[04May2024 16:04:51.760] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[04May2024 16:05:09.913] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[04May2024 16:05:09.914] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[04May2024 16:05:09.954] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[04May2024 16:05:09.955] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[04May2024 16:05:09.998] [Server thread/INFO] [ViaVersion/]: Enabling ViaVersion v4.8.1
+[04May2024 16:05:10.286] [Server thread/INFO] [ViaVersion/]: ViaVersion detected server version: Unknown (765) (765)
+[04May2024 16:05:10.303] [Server thread/WARN] [ViaVersion/]: ViaVersion does not have any compatible versions for this server version!
+[04May2024 16:05:10.304] [Server thread/WARN] [ViaVersion/]: Please remember that ViaVersion only adds support for versions newer than the server version.
+[04May2024 16:05:10.305] [Server thread/WARN] [ViaVersion/]: If you need support for older versions you may need to use one or more ViaVersion addons too.
+[04May2024 16:05:10.306] [Server thread/WARN] [ViaVersion/]: In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+[04May2024 16:05:10.307] [Server thread/WARN] [ViaVersion/]: and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[04May2024 16:05:10.359] [Server thread/INFO] [playit-gg/]: Enabling playit-gg v0.1.4
+[04May2024 16:05:10.737] [Server thread/INFO] [ViaBackwards/]: Enabling ViaBackwards v4.8.1
+[04May2024 16:05:10.743] [Thread-5/INFO] [gg.playit.minecraft.PlayitKeysSetup/]: secret key found, checking
+[04May2024 16:05:10.744] [Thread-5/INFO] [gg.playit.minecraft.PlayitKeysSetup/]: check secret
+[04May2024 16:05:10.765] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[04May2024 16:05:10.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04May2024 16:05:12.034] [Thread-5/INFO] [gg.playit.minecraft.PlayitKeysSetup/]: found minecraft java tunnel: may-acer.joinmc.link
+[04May2024 16:05:12.045] [Thread-5/INFO] [gg.playit.minecraft.PlayitManager/]: keys and tunnel setup
+[04May2024 16:05:12.048] [Thread-5/INFO] [Console/]: playit.gg: tunnel setup
+[04May2024 16:05:12.050] [Thread-5/INFO] [Console/]: playit.gg: may-acer.joinmc.link
+[04May2024 16:05:12.080] [Thread-5/WARN] [gg.playit.control.ChannelSetup/]: Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[04May2024 16:05:12.491] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: request queued, waiting 1 second before resend
+[04May2024 16:05:13.494] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: request queued, waiting 1 second before resend
+[04May2024 16:05:16.022] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.023] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.023] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.023] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.026] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.026] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.027] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.027] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.028] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.028] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.035] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.293] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:16.792] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:17.295] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04May2024 16:05:17.947] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
+[04May2024 16:05:18.158] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7366 ms
+[04May2024 16:05:18.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (27.165s)! For help, type "help"
+[04May2024 16:05:18.200] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04May2024 16:05:18.200] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[04May2024 16:05:18.200] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[04May2024 16:05:18.233] [Craft Scheduler Thread - 1/INFO] [ViaVersion/]: Finished mapping loading, shutting down loader executor!
+[04May2024 16:05:18.908] [Server thread/WARN] [ViaVersion/]: There is a newer plugin version available: 4.10.0, you're on: 4.8.1
+[04May2024 16:07:55.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hi
+[04May2024 16:09:14.673] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: send keep alive
+[04May2024 16:12:17.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04May2024 16:12:17.201] [Server thread/INFO] [ViaBackwards/]: Disabling ViaBackwards v4.8.1
+[04May2024 16:12:17.202] [Server thread/INFO] [playit-gg/]: Disabling playit-gg v0.1.4
+[04May2024 16:12:17.202] [Server thread/INFO] [ViaVersion/]: Disabling ViaVersion v4.8.1
+[04May2024 16:12:17.202] [Server thread/INFO] [ViaVersion/]: ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[04May2024 16:12:17.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04May2024 16:12:17.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04May2024 16:12:17.789] [Thread-5/INFO] [gg.playit.minecraft.PlayitManager/]: control channel shutdown
+[04May2024 16:12:20.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04May2024 16:12:46.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[04May2024 16:12:46.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
